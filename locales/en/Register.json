@@ -1,0 +1,9 @@
+{
+  "label": "Your phone number",
+  "placeholder": "+84 not included",
+  "validator": "Valid international format +84912345678",
+  "otp": "Get OTP",
+  "or": "Or",
+  "google": "Sign in with",
+  "facebook": "Sign in with"
+}

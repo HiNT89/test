@@ -1,0 +1,9 @@
+{
+  "label": "あなたの電話番号",
+  "placeholder": "+84 は含まれません",
+  "validator": "有効な国際形式 +84912345678",
+  "otp": "Get OTP",
+  "or": "または",
+  "google": "Sign in with",
+  "facebook": "Sign in with"
+}

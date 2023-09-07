@@ -1,0 +1,8 @@
+{
+  "label": "Nhập mã xác thực",
+  "validator": "Mã xác thực sé hết hiệu lực sau",
+  "accuracy": "Xác thực",
+  "or": "Hoặc",
+  "google": "Sign in with",
+  "facebook": "Sign in with"
+}

@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "hellojob";
+  src: url("/font/SFPRODISPLAYMEDIUM.OTF");
+}
+
+html {
+  font-family: "hellojob";
+}
+
+.areas-font-size {
+  font-size: 5px;
+}
+.loading-box div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5rem;
+  animation: loading 2.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0%,
+  100% {
+    transform: scale(0.2);
+    background-color: #0ddcf8;
+  }
+  42% {
+    background-color: #5d4da6;
+  }
+  50% {
+    transform: scale(1);
+    background-color: #42b58fb8;
+  }
+}
+
+.loading-box .one {
+  animation-delay: 0s;
+}
+.loading-box .two {
+  animation-delay: 0.2s;
+}
+.loading-box .three {
+  animation-delay: 0.4s;
+}
+.loading-box .four {
+  animation-delay: 0.8s;
+}
+.loading-box .five {
+  animation-delay: 1s;
+}
